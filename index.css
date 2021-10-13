@@ -1,0 +1,55 @@
+.bingkai {
+  border            : 7px double orange;
+  width             : 150px;
+  height            : 195px;
+  margin            : auto;
+  box-shadow        : 5px 5px 5px gray;
+}
+
+form {
+ border-bottom      : 2px solid orange;   
+}
+
+img {
+ width              : 70px;
+ height             : 70px;  
+ float              : right; 
+ margin-top         : -50px;
+}
+
+input[type="button"] {
+ color              : black;
+ background         : linear-gradient(to top, orange, red);
+ font-size          : 16px;
+ cursor             : pointer;
+ transition         : 0.7s;
+ width              : 47px; 
+}
+
+input[type="button"]:hover {
+ transition         : 0.7s;  
+ border-radius      : 30px;
+ background         : linear-gradient(to top, red, orange);
+}
+
+input[type="text"] {
+ width              : 130px;
+ color              : black;
+ font-size          : 16px;
+}
+
+input[type="reset"] {
+ width              : 149px; 
+ background         : linear-gradient(to top, orange, orange, red);
+}
+
+input[type="reset"]:hover {
+ transition         : 0.7s;  
+ border-radius      : 30px;
+ background         : linear-gradient(to top, red, orange);    
+}
+
+.footer {
+ text-align         : center;
+ margin-top         : -1px;
+}
